@@ -3,7 +3,7 @@ const boxesSet = () =>
     let wrapperRef = $('.wrapper');
     mocktails.forEach((mocktail)=>{
         let boxMarkup= ` <div class="box">
-         <img class="mocktail_pic" src="./images/${mocktails.drink.toLowerCase()}.png" />
+         <img class="mocktail_pic" src="./images/${mocktail_info.drink.toLowerCase()}.png" />
         <p class="drink"></p>
       </div>`;
       wrapperRef.append(boxMarkup);
